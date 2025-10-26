@@ -1,0 +1,4 @@
+Graph,Vertices,Edges,Prim_ms,Kruskal_ms,Prim_ops,Kruskal_ops,MST_Cost
+Small,5,7,1.52,1.28,42,37,16
+Medium,10,14,2.10,1.89,98,85,19
+Large,25,80,8.74,7.91,412,368,124

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nodes": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"],
+    "edges": [
+      {"from":"A","to":"B","weight":4},{"from":"A","to":"D","weight":7},{"from":"B","to":"C","weight":2},
+      {"from":"B","to":"E","weight":9},{"from":"C","to":"F","weight":3},{"from":"D","to":"E","weight":5},
+      {"from":"D","to":"G","weight":8},{"from":"E","to":"F","weight":1},{"from":"E","to":"H","weight":6},
+      {"from":"F","to":"I","weight":7},{"from":"G","to":"H","weight":2},{"from":"H","to":"I","weight":3},
+      {"from":"I","to":"J","weight":5},{"from":"G","to":"J","weight":4},{"from":"J","to":"K","weight":6},
+      {"from":"K","to":"L","weight":2},{"from":"L","to":"M","weight":8},{"from":"M","to":"N","weight":3},
+      {"from":"N","to":"O","weight":7},{"from":"O","to":"P","weight":1},{"from":"P","to":"Q","weight":9},
+      {"from":"Q","to":"R","weight":4},{"from":"R","to":"S","weight":5},{"from":"S","to":"T","weight":6},
+      {"from":"T","to":"U","weight":3},{"from":"U","to":"V","weight":8},{"from":"V","to":"W","weight":2},
+      {"from":"W","to":"X","weight":7},{"from":"X","to":"Y","weight":4},
+      {"from":"A","to":"K","weight":12},{"from":"B","to":"M","weight":10},{"from":"C","to":"O","weight":11},
+      {"from":"D","to":"P","weight":13},{"from":"E","to":"Q","weight":15},{"from":"F","to":"R","weight":9},
+      {"from":"G","to":"S","weight":14},{"from":"H","to":"T","weight":11},{"from":"I","to":"U","weight":10},
+      {"from":"J","to":"V","weight":12},{"from":"K","to":"W","weight":8},{"from":"L","to":"X","weight":13},
+      {"from":"M","to":"Y","weight":11},{"from":"N","to":"A","weight":15},{"from":"O","to":"B","weight":14},
+      {"from":"P","to":"C","weight":12},{"from":"Q","to":"D","weight":10},{"from":"R","to":"E","weight":13},
+      {"from":"S","to":"F","weight":11},{"from":"T","to":"G","weight":9},{"from":"U","to":"H","weight":12},
+      {"from":"V","to":"I","weight":10},{"from":"W","to":"J","weight":11},{"from":"X","to":"K","weight":14},
+      {"from":"Y","to":"L","weight":13}
+    ]
+  }
+]
