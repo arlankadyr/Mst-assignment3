@@ -1,4 +1,4 @@
-package com.mst.model;
+package Model;
 
 import java.util.*;
 

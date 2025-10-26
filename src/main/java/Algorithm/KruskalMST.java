@@ -1,7 +1,7 @@
-package com.mst.algorithms;
+package Algorithm;
 
-import com.mst.model.Edge;
-import com.mst.model.Graph;
+import Model.Edge;
+import Model.Graph;
 
 import java.util.*;
 
@@ -61,7 +61,7 @@ public class KruskalMST {
 
         List<Edge> sortedEdges = new ArrayList<>(graph.getEdges());
         sortedEdges.sort(Edge::compareTo);
-        ops += sortedEdges.size() * 2; // Approximate sort ops
+        ops += sortedEdges.size() * 2;
 
         UnionFind uf = new UnionFind(graph.getNodes());
         List<Edge> mstEdges = new ArrayList<>();

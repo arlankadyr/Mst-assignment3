@@ -1,10 +1,10 @@
-package com.mst;
 
-import com.mst.algorithms.KruskalMST;
-import com.mst.algorithms.PrimMST;
-import com.mst.model.Graph;
+import Algorithm.PrimMST;
+import Algorithm.KruskalMST;
+import Model.Graph;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 
 public class MstTest {
 

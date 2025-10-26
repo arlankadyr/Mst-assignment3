@@ -1,8 +1,7 @@
-package com.mst.algorithms;
+package Algorithm; 
 
-import com.mst.model.Edge;
-import com.mst.model.Graph;
-
+import Model.Edge;
+import Model.Graph;
 import java.util.*;
 
 public class PrimMST {

@@ -1,13 +1,15 @@
-package com.mst.utils;
+package Utils;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.mst.algorithms.KruskalMST;
-import com.mst.algorithms.PrimMST;
-import com.mst.model.Edge;
-import com.mst.model.Graph;
+import Algorithm.PrimMST;
+import Algorithm.KruskalMST;
+import Model.Edge;
+
+
+import Algorithm.PrimMST;
+import Algorithm.KruskalMST;
+import Model.Edge;
+import Model.Graph;
+import com.google.gson.*;
 
 import java.io.FileWriter;
 import java.util.List;

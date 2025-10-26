@@ -1,5 +1,4 @@
-package com.mst.model;
-
+package Model;
 public class Edge implements Comparable<Edge> {
     private final String from;
     private final String to;
